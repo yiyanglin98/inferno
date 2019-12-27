@@ -1,12 +1,40 @@
 # inferno
 A text-based adventure game built using Clojure.
 
-# Game guide
+## Game guide
+If you want to move
+```
 n/north/go north, and the four canonical directions (synonyms are supported).
+```
+If you want to quit the game
+```
 quit
-take/drop sth
-look/examine to show the description and things in the room. look/examine something to show the description of the thing.
-i/inventory to show the inventory
-use attack when there is slime/demon in the room
-buy to buy food when possible
-eat to eat food (+hp) when you have any
+```
+Show the objects in the room.
+```
+look/examine
+```
+Show the description of something
+```
+look/examine [name of the thing]
+```
+If you want to take/drop something
+```
+take/drop [name of the thing]
+```
+Show the inventory
+```
+i/inventory
+```
+When there is slime/demon in the room, you can choose to attack it.
+```
+attack
+```
+When possible, you can buy food
+```
+buy
+```
+You can eat food when you have any, to +hp
+```
+eat
+```
