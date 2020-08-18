@@ -5,7 +5,7 @@ Please run the following command
 ```
 lein run
 ```
-## Game guide
+## How to play
 If you want to move
 ```
 n/north/go north, and the four canonical directions (synonyms are supported).
