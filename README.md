@@ -1,6 +1,10 @@
 # inferno
-A text-based adventure game built using Clojure.
-
+A text-based adventure game built using Clojure. This is the final project for CS296-25 Fall 2019 at UIUC.
+## How to run
+Please run the following command
+```
+lein run
+```
 ## Game guide
 If you want to move
 ```
